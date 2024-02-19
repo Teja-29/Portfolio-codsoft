@@ -1,0 +1,233 @@
+/* Add this code to your styles.css file */
+
+/* Navbar styles */
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+  }
+  
+  nav li {
+    display: inline;
+    margin:0px 40px;
+    
+  }
+  
+  nav a {
+    text-decoration:underline;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+ section{
+    max-width: 100%;
+    margin: 40px auto;
+    
+  }
+  .carousel{
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    
+  }
+  
+  .project {
+    margin-bottom: 20px;
+    border: 1px solid #503C3C;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #FFF8E3;
+  }
+  #projects{
+    background-color: #D4E7C5;
+    padding: 10px;
+  }
+  header {
+    background-image: url('./Best-Websites-To-Show-Off-Your-Portfolio-Business-1357904435.webp'); 
+    max-width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color:black;
+    text-align: center;
+    padding: 40px 0; 
+    font-size: 25px;
+  }
+  header h1,p{
+    padding: 20px;
+  }
+  header h1{
+    padding-top: 200px;
+  }
+#about{
+  text-align: center;
+}
+#about h1{
+ 
+  font-size:30px ;
+}
+#about p {
+/* Make the text take up remaining space */
+  font-size: 25px;
+}
+
+#about img{
+    width: 10cm;
+    height: 10cm;
+    position: static;
+
+
+}
+#skills h2{
+  font-size: 50px;
+}
+#skills h3{
+  font-size: 30px;
+}
+#skills .carousel-slide{
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  
+}
+#skills .carousel{
+  border: 1px solid #503C3C;
+}
+.carousel-slide img{
+  border-radius: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#skills img{
+  width: 5cm;
+  height: 5cm;
+  padding: 8px;
+}
+#skills{
+  background-color: #F3F8FF;
+}
+
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 50px;
+  border-radius: 15px;
+  text-align: center;
+  
+  
+}
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+/* Add this code to your styles.css file */
+
+
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Contact Section styles */
+#contact {
+  text-align: center;
+  margin-top: 50px; /* Adjust as needed */
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Contact Form styles */
+.contact-form-container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Confirmation Message styles */
+.confirmation-message {
+  display: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.confirmation-message p {
+  margin: 0;
+}
+
+/* Social Media Links styles */
+.social-media-links {
+  margin-top: 20px;
+}
+
+.social-media-links a {
+  color: #333;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.social-media-links a:hover {
+  color: #00aced; /* Change the color on hover */
+}
+#contact{
+  background-color: #B4B4B8;
+  margin-bottom: 0px;
+  padding: 10px;
+}
+      

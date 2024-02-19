@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/1de6dd5123.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li>|</li>
+      <li><a href="#about">About</a></li>
+      <li>|</li>
+      <li><a href="#skills">Skills</a></li>
+      <li>|</li>
+      <li><a href="#projects">Projects</a></li>
+      <li>|</li>
+      <li><a href="#resume">Resume</a></li>
+      <li>|</li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+  <!-- Header Section -->
+  <header id="home" class="head">
+    <h1 >Hi! everyone <br>I'm Teja</h1>
+    <!-- <h1 > </h1> -->
+    <p >Web Developer | Creative Thinker</p>
+  </header>
+  <hr>
+
+  <!-- About Section -->
+  <section id="about">
+    <h1>About Myself</h1>
+    <img src="./b188c6801ad1d71d3c962c6e4aa2d0cf.jpg" alt="Your Name" >
+    <p>
+      Hi, I'm Your Name, a passionate web developer with a keen interest in creating
+      user-friendly and engaging websites. I specialize in front-end development and
+      love turning ideas into reality. Hi, I'm Your Name, a passionate web developer with a keen interest in creating
+      user-friendly and engaging websites. I specialize in front-end development and
+      love turning ideas into reality. 
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+
+  <!-- Update the Skills Section in your HTML file -->
+<section id="skills" >
+  <div class="carousel">
+        <h2>Skills</h2>
+
+          <div class="carousel-slide" id="slide-html5">
+            <img src="html.jpg" alt="HTML5">
+            <h3>HTML5</h3>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-slide" id="slide-css3">
+            <img src="./css3.png" alt="CSS3">
+            <h3>CSS3</h3>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-slide" id="slide-javascript">
+            <img src="javascript.png" alt="JavaScript">
+            <h3>JavaScript</h3>
+          </div>
+
+          <!-- Slide 4 -->
+          <div class="carousel-slide" id="slide-react">
+            <img src="./reactjs.jpg" alt="React">
+            <h3>React</h3>
+          </div>
+
+          <!-- Slide 5 -->
+          <div class="carousel-slide" id="slide-responsive-design">
+            <img src="./responsive.png" alt="Responsive Design">
+            <h3>Responsive Design</h3>
+          </div>
+
+    <!-- Navigation buttons -->
+  </div>
+</section>
+
+
+  <!-- Projects Section -->
+  <section id="projects" >
+    <div class="carousel">
+    <h2>Projects</h2>
+
+    <!-- Project 1 -->
+    <div class="project"><a href="#resume">
+      <img src="portfolio.jpeg" alt="Project 1">
+      <h3>Personnel portfolio</h3></a>
+      <p>My portfolio website is a showcase of my skills, projects, and experiences as a web developer.
+        Designed with a clean and modern layout, the site provides an overview of my expertise in HTML, CSS,
+        and JavaScript. It features a responsive design to ensure a seamless experience across various devices.
+        Explore the different sections to learn more about me, my skills, and the projects I've worked on.</p>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project"><a href="#resume">
+      <img src="landingpage.jpeg" alt="Project 2">
+      <h3>Landing Page</h3></a>
+      <p>TechHub Connect is a modern and sleek landing page designed for a technology hub or innovation center. The landing page serves as the digital entry point for visitors interested in exploring the services, community, and opportunities offered by TechHub Connect.</p>
+    </div>
+  </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="carousel">
+    <h2>Resume</h2>
+    <a href="resume.pdf" target="_blank" download><img src="./resume.png" alt=""></a>
+    <!-- <p>Download my resume <a href="resume.pdf" target="_blank" download>here</a>.</p> -->
+    <a href="resume.pdf" target="_blank" download><button class="btn" >Download</button></a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+  
+    <!-- Contact Form -->
+    <div class="contact-form-container">
+      <form id="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+  
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+  
+        <button type="submit">Send Message</button>
+      </form>
+  
+      <!-- Confirmation Message -->
+      <div class="confirmation-message" id="confirmation-message">
+        <p>Thank you for reaching out! I'll get back to you soon.</p>
+      </div>
+    </div>
+  
+    <!-- Social Media Links -->
+    <div class="social-media-links">
+      <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+  </section>
+
+</body>
+
+
+</html>
+
